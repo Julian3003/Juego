@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}   
+body {
+    background-image: url("https://www.usco.edu.co/imagen-institucional/ocre/universidad-surcolombiana-50.png");
+    background-repeat:no-repeat;
+    background-position-x:left;
+    background-position-y:left;
+}
+
+h1{
+    font-size: 30px;
+    color: rgb(250, 0, 0);
+    margin-top: 100px;
+    margin-bottom: 0%;
+}
+
+.contenedor {
+    padding: 0px;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    background-image: url(https://www.lucushost.com/blog/wp-content/uploads/2020/02/test-velocidad-web.png);
+    border: 10px dashed #aa4
+
+}
+ 
+#playerRojo {
+	background-color: #900;
+	border: 4px dashed #b22;
+	width: 50px;
+	height: 50px;
+    border-radius: 29px;
+	position: absolute;
+}
+#playerAzul {
+	background-color: rgb(0, 89, 255);
+	border: 4px dashed rgb(0, 7, 100);
+	width: 50px;
+	height: 50px;
+	border-radius: 29px;
+	position: absolute;
+	transition: all 0.3s
+}
+#playerAmarillo {
+	background-color: rgb(255, 230, 0);
+	border: 4px dashed rgb(146, 148, 61);
+	width: 50px;
+	height: 50px;
+	border-radius: 29px;
+    text-align: center;
+}
+.pointer {
+	background-color: #444;
+	height: 30px;
+	border-bottom: 0px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 0px;
+}
