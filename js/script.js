@@ -31,7 +31,7 @@ function restarTiempo() {
 	}
 }
 setInterval(restarTiempo,1000);
-setInterval(mover,500);
+setInterval(mover,1000);
 //setTimeout(mover('playerAmarillo'),300);
 
 document.getElementById('playerAzul').addEventListener("mouseover",sumarPuntos2)
